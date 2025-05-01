@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-container{
+    width: 100px;
+    max-width: 400px;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.login-header{
+    text-align:center;
+    margin-bottom: 2rem;
+}
+.login-header i{
+    font-size: 3rem;
+    color: #0d63fd;
+    margin: 1rem;
+}
+.form-floating label {
+    color: #6c757d;
+}
+.btn-login {
+    width: 100%;
+    padding: 0.75rem;
+}
+.footer-links {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
